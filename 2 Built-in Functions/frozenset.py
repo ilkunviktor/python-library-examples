@@ -1,0 +1,18 @@
+# frozenset is immutable
+# set is mutable
+s1 = frozenset([1, 1, 3, 3, 4, 5, 6])
+s2 = frozenset([1, 1, 5, 6, 8, 8])
+print(s1)
+print(s2)
+s3 = s1.difference(s2)
+print(s3)
+# s1.add(23)
+print(s1)
+s4 = set([1, 2, 3, 50, 50])
+s4.add(23)
+print(s4)
+s4.remove(3)
+print(s4)
+print(s4)
+print(sorted(s2))
+print(sorted(s4))
