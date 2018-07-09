@@ -1,0 +1,5 @@
+print(int(float(2.3)))
+print(int(12.6))
+print(int('0180'))
+print(int('120122', 3))
+print(int('162', 7))
