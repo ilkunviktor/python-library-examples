@@ -1,0 +1,1 @@
+print(ascii('Печатаем по-немецки (ü, ö, ä, ß) Do you happy now?'))

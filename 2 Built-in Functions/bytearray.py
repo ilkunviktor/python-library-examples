@@ -1,0 +1,15 @@
+b1 = bytearray(b'Hello world!')
+b2 = bytearray(range(20))
+print(b1) 
+print(b2) 
+print(b1.hex()) 
+print(b2.hex()) 
+print(list(b1))
+print(list(b2))
+b3 = bytearray.fromhex('48656c6c6f20776f726c6421')
+print(list(b3))
+print(b3.decode("utf-8"))
+
+# mutability
+b1.reverse()
+print(b1.decode('utf-8'))
