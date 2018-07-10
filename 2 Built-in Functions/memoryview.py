@@ -1,0 +1,8 @@
+b = bytes(b'Yet another little world')
+m = memoryview(b)
+print(m)
+print(m.tobytes())
+print(m.shape)
+print(m.format)
+print(m.nbytes)
+print(m.hex())
