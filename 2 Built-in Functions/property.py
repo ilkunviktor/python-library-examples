@@ -40,16 +40,17 @@ class CC:
 #    def x(self):
 #        del self._x
 
-c = C()
-c.x = 1
-a = c.x
-del c.x
-print(c.y)
-# c.y = 4
+if __name__ == '__main__':
+    c = C()
+    c.x = 1
+    a = c.x
+    del c.x
+    print(c.y)
+    # c.y = 4
 
-cc = CC()
-cc.x = 5
-b = cc.x
-# del cc.x
+    cc = CC()
+    cc.x = 5
+    b = cc.x
+    # del cc.x
 
-cc.x
+    cc.x
