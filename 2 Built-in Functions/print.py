@@ -1,0 +1,1 @@
+print('Wonderful life! So cute!')
